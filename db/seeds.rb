@@ -12,11 +12,6 @@ assembly_new = Assembly.create(name: Faker::RickAndMorty.character)
 part_new = Part.create(part_number: Faker::RickAndMorty.location)
 end
 
-10.times do
-  assembly = Assembly.all.sample
-assembly.parts.push(Part.all.sample)
-assembly.save
-end
 
 # give each part a random assembly
 Part.all.each do |part|

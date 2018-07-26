@@ -1,24 +1,18 @@
-# README
+# Ze Super Usine !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Salut mon p'tit lapin ! Bienvenue sur le repository de la superbe application Rails de François Dasylva et Jeremy Rak !
 
-* Ruby version
+## Instructions ##
 
-* System dependencies
+Pour tester notre super appli, réalisez les processus suivants :
 
-* Configuration
+- git clone https://github.com/skageraz/Usine pour copier notre répo sur votre machine
+- cd THPBlog dans votre ligne de commande
+- Executez bundle install pour mettre à jour votre liste de gems
+- Executez rails db:migrate pour que les migrations soient bien effectuées
+- Executez rails db:seed pour pouvoir initialiser et remplir votre database !
 
-* Database creation
+### Concepteurs ###
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Conçu en Ruby on Rails, ligne par ligne, par Jeremy R. ( <a href="https://github.com/skageraz">Skageraz</a> ) et François D. ( <a href="https://github.com/TheFSilver">TheFSilver</a> ).
